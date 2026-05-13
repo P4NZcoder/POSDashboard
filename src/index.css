@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Noto Sans Thai";
+  src: url("./assets/fonts/NotoSansThai-Variable.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+body {
+  margin: 0;
+  background: #f3f4f6;
+  font-family: "Noto Sans Thai", Inter, system-ui, sans-serif;
+}
